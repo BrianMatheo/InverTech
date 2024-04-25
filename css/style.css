@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Genshin';
+    src: url(/fonts/genshin.ttf) format('truetype');
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Genshin";
+    background-color: gray;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: rgb(109, 109, 109);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+}
+
+.contenedor-nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.contenedor-nav > a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.contenedor-nav > a:hover{
+    color: black;
+    background-color: white;
+    transition: all ease-in-out .7s;
+}
+
+.search-nav{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.search-input{
+    width: 20%;
+    color: white;
+    padding: 8px;
+    font-family: "Genshin";
+    margin-top: 15px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px 0 0 15px;
+}
+
+.search{
+    width: 1280px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search-icon{
+    background-color: black;
+    margin-top: 19px;
+    padding: 5px;
+    width: 33px;
+    height: 33px;
+    border: 1px solid black;
+    border-radius: 0 15px 15px 0;
+}
+
+.search-icon:hover{
+    cursor: pointer;
+}
+
+.inicio{
+    margin-top: 120px;
+    height: 300px;
+
+}
+
+.contenedor-inicio{
+    padding: 4% 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-inicio{
+    margin: auto;
+    width: 80%;
+}
+
+.invertech-icon{
+    width: 200px;
+    height: 200px;
+}
+
+.pais{
+    background-color: rgb(109, 109, 109);
+    width: 100%;
+    height: 300px;
+    padding-top: 5%;
+}
+
+.contenedor-pais{
+    padding: 4% 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pais-input{
+    background-color: black;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 15px 0 0 15px;
+}
+
+.pais-button{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 0 15px 15px 0;
+}
+
+.pais-button:hover{
+    cursor: pointer;;
+}
